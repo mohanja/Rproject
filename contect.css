@@ -8,6 +8,7 @@ form{
 }
 .group{
     margin: 12px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
 }
@@ -16,24 +17,24 @@ label{
     font-weight: bold;
 }
 input{
-   padding: 8px 200px 8px 5px;
+   padding: 8px 150px 8px 5px;
 
    background-color: white;
-   border: 0px solid white;
+   border: 1px solid rgb(178, 177, 177);
    border-radius: 4px;
 }
 textarea{
-    padding: 10px 200px 30px 30px;
+    padding: 10px 150px 30px 30px;
     background-color: white;
-    border: 0px solid white;
+    border: 1px solid rgb(162, 162, 162);
     border-radius: 4px;
 }
 button{
     color: white;
     font-weight: bold;
     margin: 20px;
-    border: 1px solid white;
- 
+    border: 1px solid rgb(142, 141, 141);
+    margin-bottom: 20px;
     padding: 8px 15px;
     background:linear-gradient(45deg,#0cc3e3,rgb(202, 11, 227),#f500d0);
 }
@@ -260,5 +261,8 @@ footer .wave#wave4{
     .negative{
         position: relative;
         left: 0px;
+    }
+   .form{
+        padding:  10%;
     }
 }
