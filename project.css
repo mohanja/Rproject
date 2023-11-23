@@ -199,7 +199,7 @@ align-items: center;
     .left-contat .left-contat-arrow{
        border-right: 15px solid #0cc3e3;
        border-left:  0;
-       top: 42%;
+       top: 45%;
        left:-30px;
     }
     .right-contat .right-contat-arrow{
@@ -235,12 +235,12 @@ left: 52px;
    }
 }
 
-@media  screen and (max-width:450px) {
-    .left-contat .left-contat-arrow{
+@media only screen and (max-width:450px) {
+    .left-contat-arrow{
         border-right: 15px solid #0cc3e3;
         border-left:  0;
-        top: 46%;
-        left:-20px;
+        top: 50%;
+        left:-0px;
      }
      .pass-a{
         padding: 5px 15px; 
@@ -278,8 +278,8 @@ left: 52px;
 .left-contat .left-contat-arrow{
    border-right: 15px solid #0cc3e3;
    border-left:  0;
-   top: 42%;
-   left:-30px;
+   top: 46%;
+   left:-20px;
 }
 .right-contat .right-contat-arrow{
 left: 52px;
