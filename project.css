@@ -169,7 +169,7 @@ align-items: center;
     background:linear-gradient(45deg,#0cc3e3,rgb(202, 11, 227),#f500d0);
     color: white;
     animation: movedown 3s linear forwards;
-    margin:30px;
+    margin:30px 0px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
@@ -218,7 +218,7 @@ left: 52px;
         justify-content: center;
         align-items: center;
         width: 91%;
-        margin-left: 10% ;
+       
         
     }
     .imgs-box {
@@ -297,7 +297,7 @@ left: 52px;
     justify-content: center;
     align-items: center;
     width: 91%;
-    margin-left: 10% ;
+  
     
 }
 .imgs-box {
@@ -312,4 +312,12 @@ height: 200px;
 .two-item{
 height: 200px;
 }
+.item{
+    padding-left:60px ;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  
+  }
 }
