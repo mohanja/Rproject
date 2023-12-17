@@ -5,7 +5,9 @@
  
    
   }
-
+:root{
+   --BG-COLOR:#3586ff;
+}
  header nav{
    display: flex;
     justify-content: space-between;
