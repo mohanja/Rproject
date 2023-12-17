@@ -1,3 +1,7 @@
+:root{
+    --BG-COLOR:#3586ff;
+ }
+
 form{
     
     padding-top: 30px;
@@ -36,7 +40,7 @@ button{
     border: 1px solid rgb(142, 141, 141);
     margin-bottom: 20px;
     padding: 8px 15px;
-    background:linear-gradient(45deg,#0cc3e3,rgb(202, 11, 227),#f500d0);
+    background:var(--BG-COLOR);
 }
 .ditel{
     background: transparent;

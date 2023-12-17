@@ -13,7 +13,7 @@
     background: transparent;
 }
 .carousel-indicators [data-bs-target] {
-    background: linear-gradient(45deg,#0cc3e3,rgb(202, 11, 227),#f500d0);
+    background: var(--BG-COLOR);
 }
 .carousel-item img{
     height: 80vh;
@@ -22,6 +22,9 @@
     .carousel-item img{
         height: 45vh;
     } 
+    .item{
+        
+    }
 }
 @media only screen and (max-width:450px){
     .carousel-item img{
